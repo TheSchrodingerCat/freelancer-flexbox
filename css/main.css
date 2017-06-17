@@ -81,6 +81,45 @@ a{
 	display: flex;
 }
 
+/*------------------------------------ ABOUT -------------------------------------------------*/
+#about-section{
+	background: #56d3a9;
+	padding: 4% 3%;
+}
+
+.encabezado.about{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.row.about{
+	display: flex;
+	padding: 0 10%;
+}
+
+.parraf{
+	padding: 0 3%;
+}
+
+.contenedor-boton{
+	display: flex;
+	justify-content: center;
+	margin: 1% 0;
+}
+
+#botoncito{
+	width: 17vw;
+	height: 4vw;
+	font-size: 18px;
+	background: #56d3a9;
+	border: 2px solid white;
+	color: white;
+	border-radius: 5px;
+}
+
+
 
 
 

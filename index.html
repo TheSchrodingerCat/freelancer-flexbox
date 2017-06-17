@@ -2,34 +2,36 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Freelancer</title>
+	<title>Freelancer Flexbox</title>
 	<script src="https://use.fontawesome.com/be0dd1e218.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<link rel="stylesheet" href="css/common.css">
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+
 	<!-- barra de navegación -->
-	<header>
-		<div class="menu container">
-			<div class="menu1">
-				<div class="option"><a href="#" class="text-uppercase link">Contact</a></div>
-				<div class="option"><a href="#" class="text-uppercase link">About</a></div>
-				<div class="option"><a href="#" class="text-uppercase link">Portfolio</a></div>
-			</div>
-			<div class="menu2">
-				<a href="#" class="text-uppercase link">Start Bootstrap</a>
-			</div>
+	<nav class="menu flex-container">
+		<div class="logo-container text-uppercase"><strong>Start Bootstrap</strong></div>
+		<div class="menu">
+			<a href="#" class="text-uppercase link">Portfolio</a>
+			<a href="#" class="text-uppercase link">About</a>
+			<a href="#" class="text-uppercase link">Contact</a>
 		</div>
-	</header>
+	</nav>
+
 
 	<!-- seccion bootstrap -->
 	<section id="bootstrap">
 		<div class="container green">
 			<img src="assets/images/profile.png" alt="Profile" class="perfil">
 			<div class="text-uppercase" id="title">Start Bootstrap</div>
-			<div class="dibujo"><i class="fa fa-star blanco" aria-hidden="true"></i></div>
-			<p>Web Developer - Graphic Artist - User Experience Designer</p>
+			<div class="line-star">
+				<div class="linea blanco"><hr class="my-line"></div>
+				<i class="fa fa-star blanco" aria-hidden="true"></i>
+				<div class="linea blanco"><hr class="my-line"></div>
+			</div>
+			<p class="blanco">Web Developer - Graphic Artist - User Experience Designer</p>
 		</div>
 	</section>
 
@@ -37,7 +39,11 @@
 		<div class="container">
 			<div class="encabezado portfolio">
 				<div class="text-uppercase size" id="portfolio">Portfolio</div>
-				<div class="dibujo"><i class="fa fa-star azul" aria-hidden="true"></i></div>
+				<div class="line-star">
+				<div class="linea"><hr class="my-line"></div>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<div class="linea"><hr class="my-line"></div>
+			</div>
 			</div>
 			<div class="row box-portfolio">
 				<div class="col-4 cajita">

@@ -162,6 +162,59 @@ a{
 }
 
 
+/*---------------------------------------- INFORMACION --------------------------------------*/
+.informacion{
+	background: #48496E;
+	display: flex;
+}
+
+.info{
+	width: 30vw;
+	margin: 1vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 2%;
+	color: white;
+}
+
+.title-info{
+	font-weight: bold;
+}
+
+.networks{
+	margin: 0;
+	width: 25vw;
+}
+
+.fa.nets{
+	font-size: 15px;
+}
+
+.boton-network{
+	width: 4vw;
+	height: 4vw;
+	background: #48496E;
+	border: 2px solid white;
+	border-radius: 50%;
+	margin: 1%;
+}
+
+.info-span{
+	color: #56d3a9;
+}
+
+/*---------------------------------- FOOTER -------------------------------------*/
+.footer{
+	background: rgb(49, 69, 90);
+	margin: 0;
+	padding: 1%;
+	display: flex;
+	justify-content: center;
+}
+
+
+
 
 
 
